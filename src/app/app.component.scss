@@ -1,0 +1,85 @@
+.header {
+    color: white;
+    background-color: brown;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 60px;
+}
+.outer-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.data-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    color: darkred;
+    font-family: times;
+}
+button {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-left: 71px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 25px;
+    width: 70px;
+    font-family: times;
+}
+.motif-data {
+    padding: 5px;
+    margin-left: 35px;
+    color: darkgreen;
+    font-size: 15px;
+    width: 100px;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+.motif-data::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.motif-data::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+.motif-data::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.gene-data {
+    padding: 5px;
+    color: darkgreen;
+    font-size: 15px;
+    width: 150px;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+
+.gene-data::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.gene-data::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+.gene-data::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
